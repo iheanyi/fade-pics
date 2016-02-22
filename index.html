@@ -1,0 +1,38 @@
+<!--DOCTYPE HTML -->
+<html>
+  <title>Fade Pics</title>
+  <link rel="stylesheet" href="./vendor/tachyons.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <body>
+    <div class="h-100 sans-serif cf">
+      <div class="w-25 ptl phm fl h-100 bg-dark-gray white">
+        <h4>Select your images</h4>
+
+        <div class="fl mbl db tl">
+          <label class="db mbs tl w-50">Starting Image</label>
+          <input type="file" class="tl" id="first-image" />
+        </div>
+        <div class="fl db tr">
+          <label class="db mbs tl w-75">Ending Image</label>
+          <input type="file" class="tr" id="second-image" />
+        </div>
+
+        <button id="switch-button" class="w-100 white mtm br2 bn b--none bg-blue pvm">Switch Images</button>
+
+        <div class="pvm">
+          Created by <a href="http://iheanyi.com" class="white link heavy">Iheanyi Ekechukwu</a>
+        </div>
+      </div>
+
+      <div class="h-100 fl tc w-75 ptl sans-serif center">
+        <div class="dt w-100 h-100">
+          <div class="dtc v-mid">
+            <canvas id="canvas" class="ba tc center canvas" width="600" height="600"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

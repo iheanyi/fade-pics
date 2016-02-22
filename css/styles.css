@@ -1,0 +1,44 @@
+.canvas {
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.o-50 {
+  opacity: 0.5;
+}
+
+.o-25 {
+  opacity: 0.25;
+}
+
+.o-75 {
+  opacity: 0.75;
+}
+
+.tr-top-image {
+  z-index: 2;
+  opacity: 0.50;
+}
+
+.tr-bottom-image {
+  z-index: 1;
+  opacity: 1;
+}
+
+.bl-bottom-image {
+  z-index: 1;
+  opacity: 1;
+}
+
+.bl-top-image {
+  z-index: 2;
+  opacity: 0.75;
+}
